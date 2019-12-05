@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /usr/share/textingapplication/client
+BROWSER=none npm start 1> /dev/null &
+npm run electron-prod-dev 1> /dev/null &
+
+echo "Starting Server..."
+cd /usr/share/textingapplication/server
+./WebServer
+cd -
