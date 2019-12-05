@@ -14,4 +14,3 @@ git clone https://github.com/travispavletich/TextingClientApp.git /usr/share/tex
 sudo npm install --prefix /usr/share/textingapplication/client
 
 rm -rf TextingServer
-rm -rf TextingClientApp
